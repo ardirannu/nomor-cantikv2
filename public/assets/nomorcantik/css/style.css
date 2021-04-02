@@ -1,0 +1,360 @@
+* {
+    overflow-x: hidden;
+}
+
+body {
+    background: url('../img//black.jpg');
+    margin: 0 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -900px;
+    padding: 0 !important;
+}
+
+.jumbotron {
+    background: url('../img/black.jpg');
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.widgetOperator {
+    margin-top: -50px;
+}
+
+.linkNav a {
+    color: #ffffff;
+    text-decoration: none !important;
+    opacity: 0.6;
+}
+
+.linkNav a:hover {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.zcell {
+    width: 300px;
+}
+
+.nomorZahira {
+    width: 150px;
+}
+
+
+
+/* LogoProvider */
+.simpati,
+.kartuAS,
+.kartuHalo,
+.indosat {
+    width: 75px;
+}
+
+.smart {
+    width: 110px;
+}
+
+.tri,
+.axis,
+.xl {
+    width: 45px;
+}
+
+.smart,
+.axis,
+.indosat,
+.xl {
+    margin-top: 15px;
+}
+
+/* endLogoProvider */
+.termurahTermahal a {
+    text-decoration: none;
+    color: red;
+}
+
+.termurahTermahal a:hover {
+    color: rgb(214, 16, 16);
+}
+
+/* FormInput */
+input::placeholder {
+    font-size: 12px;
+}
+
+.inputNomor {
+    height: 28px;
+    width: 150px;
+    background: #f2f2f2;
+    border: 1px solid;
+    border-color: white #f7f7f7 whitesmoke;
+    border-radius: 3px;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.06));
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.dropdown {
+    height: 28px;
+    width: 150px;
+    background: #f2f2f2;
+    border: 1px solid;
+    border-color: white #f7f7f7 whitesmoke;
+    border-radius: 3px;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.06));
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.dropdown:before,
+.dropdown:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 9px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 4px dashed;
+    border-color: #888888 transparent;
+    pointer-events: none;
+}
+
+.dropdown:before {
+    border-bottom-style: solid;
+    border-top: none;
+}
+
+.dropdown:after {
+    margin-top: 7px;
+    border-top-style: solid;
+    border-bottom: none;
+}
+
+.dropdown-select {
+    position: relative;
+    width: 130%;
+    margin: 0;
+    padding: 6px 8px 6px 10px;
+    height: 28px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #62717a;
+    text-shadow: 0 1px white;
+    background: #f2f2f2;
+    /* Fallback for IE 8 */
+    background: rgba(0, 0, 0, 0) !important;
+    /* "transparent" doesn't work with Opera */
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.dropdown-select:focus {
+    z-index: 3;
+    width: 100%;
+    color: #394349;
+    outline: 2px solid #49aff2;
+    outline: 2px solid -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.dropdown-select>option {
+    margin: 3px;
+    padding: 6px 8px;
+    text-shadow: none;
+    background: #f2f2f2;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Fix for IE 8 putting the arrows behind the select element. */
+
+.lt-ie9 .dropdown {
+    z-index: 1;
+}
+
+.lt-ie9 .dropdown-select {
+    z-index: -1;
+}
+
+.lt-ie9 .dropdown-select:focus {
+    z-index: 3;
+}
+
+/* Dirty fix for Firefox adding padding where it shouldn't. */
+
+@-moz-document url-prefix() {
+    .dropdown-select {
+        padding-left: 6px;
+    }
+}
+
+/* end */
+/* footer */
+.copyright {
+    color: #7B7F9F;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.tokopedia {
+    width: 70px;
+}
+
+.shopee {
+    width: 90px;
+    margin-top: -3px;
+}
+
+.facebook {
+    width: 35px;
+    margin-top: 11px;
+}
+
+.bg-operator {
+    border-color: white !important;
+    border-width: 0.1px !important;
+    background-color: #1C1A1A !important;
+}
+
+.zahiraCell,
+.rekBCA,
+.cs,
+.temukanKami {
+    text-align: center;
+}
+
+footer {
+    padding-top: 80px;
+}
+
+.bgModal {
+    background-color: #2e2e2e !important;
+}
+
+
+@media (min-width: 576px) {
+    .bg-operator {
+        border-color: white !important;
+        border-width: 0.1px !important;
+        background-color: #1C1A1A !important;
+    }
+
+    .simpati,
+    .kartuAS,
+    .kartuHalo,
+    .indosat {
+        width: 130px;
+    }
+
+    .smart {
+        width: 110px;
+    }
+
+    .tri,
+    .axis,
+    .xl {
+        width: 65px;
+    }
+
+    .widgetOperator {
+        margin-top: -40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bg-operator {
+        border-color: rgba(255, 255, 255, 0.712) !important;
+        border-width: 0.1px !important;
+        background-color: #1C1A1A !important;
+    }
+
+    .zcell {
+        width: 400px;
+    }
+
+    .jumbotron {
+        height: 300px;
+    }
+
+    .widgetOperator {
+        margin-top: -80px;
+    }
+
+    .tokopedia {
+        width: 60px;
+    }
+
+    .shopee {
+        width: 80px;
+        margin-top: -3px;
+    }
+
+    .facebook {
+        width: 30px;
+        margin-top: 11px;
+    }
+
+    .zahiraCell,
+    .rekBCA,
+    .cs,
+    .temukanKami {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-position: 0px;
+    }
+
+    .bg-operator {
+        border-color: rgba(255, 255, 255, 0.712) !important;
+        border-width: 0.1px !important;
+        background-color: #1C1A1A !important;
+    }
+
+    .jumbotron {
+        background: url('../img/bg11.svg');
+        width: 100%;
+        height: 470px;
+        background-color: #030303 !important;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+    }
+
+    .simpati,
+    .kartuAS,
+    .kartuHalo,
+    .indosat {
+        width: 120px;
+        margin-left: 10px;
+    }
+
+    .smart {
+        width: 140px;
+        margin-left: 10px;
+    }
+
+    .axis,
+    .xl {
+        width: 85px;
+        margin-left: 10px;
+    }
+
+    .smart,
+    .axis,
+    .indosat,
+    .xl {
+        margin-top: -1px;
+    }
+}
